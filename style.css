@@ -6,13 +6,14 @@ body {
 
 body,
 html {
-    height: 90%;
+    height: 100%;
 }
 
 .main-header {
     padding-top: 60px;
     color: white;
     text-align: center;
+    font-size: 200%;
 }
 
 .bg {
@@ -68,6 +69,7 @@ html {
 
 input[type=text] {
     width: 20%;
+    outline: none;
     padding: 12px 20px;
     margin: 0;
     box-sizing: border-box;
@@ -87,15 +89,67 @@ input[type=text] {
     padding-top: 20px;
 }
 
-.flexible-container {
-    display: inline-block;
-    position: relative;
-    margin-left: 90px;
-    flex: content;
-    width: 25%;
-    height: 400px;
-    background-color: lightgoldenrodyellow;
+.food-shelter-education {
+    position: absolute;
+    display: flex;
+    top: 235%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
 
+.family {
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #121212;
+
+}
+
+.food {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+    width: 360px;
+    height: 320px;
+    background: rgba(79, 157, 165, 0.220);
+    border-radius: 2%;
+    padding: 2%;
+    margin-right: 15px;
+}
+
+.shelter {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+    width: 360px;
+    height: 320px;
+    background: rgba(255, 89, 89, 0.220);
+    border-radius: 2%;
+    padding: 2%;
+    margin-right: 15px;
+
+}
+
+.education {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+    width: 360px;
+    height: 320px;
+    background: rgba(161, 164, 61, 0.220);
+    border-radius: 2%;
+    padding: 2%;
+    margin-right: 15px;
 }
 
 .gallery {
