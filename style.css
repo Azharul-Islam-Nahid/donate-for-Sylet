@@ -29,7 +29,7 @@ html {
     color: white;
     font-weight: 500;
     text-decoration: none;
-    background-image: linear-gradient(tomato, red);
+    background-image: linear-gradient(#FF5959, #FF5959);
     padding: 10px 15px;
     border-radius: 5px;
 }
@@ -58,9 +58,9 @@ html {
 
 #different-button {
 
-    border: 2px solid red;
+    border: 2px solid #FF5959;
     background-color: white;
-    color: red;
+    color: #FF5959;
     padding: 14px 28px;
     font-size: 20px;
     cursor: pointer;
@@ -98,15 +98,42 @@ input[type=text] {
 
 }
 
-footer {
-    background-color: rgb(10, 10, 10);
-    text-align: center;
-    color: tomato;
-    font-style: italic;
-    font-size: larger;
-}
+
 
 #second-footer {
     font-style: normal;
     color: midnightblue;
+}
+
+.box {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form-box input {
+    font-size: 18px;
+    color: black;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #FFF4D6;
+}
+
+.form-box button {
+    color: #fff;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background: #FF5959;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgb(10, 10, 10);
+    text-align: center;
+    color: #FF5959;
+    font-style: italic;
+    font-size: larger;
 }
