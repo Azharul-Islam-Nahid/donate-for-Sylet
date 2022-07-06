@@ -65,7 +65,23 @@ html {
     cursor: pointer;
 }
 
+input[type=text] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+
+.amount-input {
+    padding-top: 5%;
+    text-align: center;
+    opacity: 60%;
+    color: grey;
+}
+
 .donate-button-2 {
     text-align: center;
-    padding-top: 80px;
+    padding-top: 20px;
 }
